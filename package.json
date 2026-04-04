@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "displayName": "Desktop Overlay – Window Service",
   "description": "Plug-and-play window management for Unity desktop-overlay apps. Provides a platform-agnostic IWindowService interface with a Windows implementation (transparency, click-through, always-on-top, focus). Designed for extension to macOS and Linux.",
-  "unity": "6000.x",
+  "unity": "6000.3",
   "author": {
     "name": "Linkz",
     "url": "https://github.com/Linkz97/com.desktopoverlay.windowservice"
