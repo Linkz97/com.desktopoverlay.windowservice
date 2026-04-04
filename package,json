@@ -1,0 +1,29 @@
+{
+  "name": "com.desktopoverlay.windowservice",
+  "version": "1.0.0",
+  "displayName": "Desktop Overlay – Window Service",
+  "description": "Plug-and-play window management for Unity desktop-overlay apps. Provides a platform-agnostic IWindowService interface with a Windows implementation (transparency, click-through, always-on-top, focus). Designed for extension to macOS and Linux.",
+  "unity": "6000.x",
+  "author": {
+    "name": "Linkz",
+    "url": "https://github.com/Linkz97/com.desktopoverlay.windowservice"
+  },
+  "keywords": [
+    "overlay",
+    "window",
+    "transparent",
+    "click-through",
+    "topmost",
+    "win32",
+    "desktop"
+  ],
+  "category": "Utilities",
+  "dependencies": {},
+  "samples": [
+    {
+      "displayName": "Basic Usage",
+      "description": "A minimal scene showing how to wire WindowController into your project.",
+      "path": "Samples~/BasicUsage"
+    }
+  ]
+}
