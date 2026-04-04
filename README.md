@@ -1,20 +1,29 @@
-﻿# Desktop Overlay Window System
+# Desktop Overlay Window System (Unity)
 
-## Features
-- Transparent window
-- Click-through toggle
-- Always-on-top
+A reusable Unity package that enables **transparent desktop overlay windows** with **click-through support**, designed for idle / overlay-style games.
 
-## Requirements
-- Windows only
-- Direct3D11
-- Built-in Render Pipeline
+---
 
-## Setup
+## ✨ Features
 
-1. Set Camera Background Alpha = 0
-2. Use Windowed Mode
-3. Add WindowController to scene
+- 🪟 Transparent window (desktop visible behind game)
+- 🖱️ Click-through mode (passive mode)
+- 🎮 Interactive mode (restores input + focus)
+- 📌 Always-on-top window support
+- ⚙️ Clean, modular architecture (Core + Platform separation)
+- 📦 Unity Package Manager (UPM) compatible
 
-## Hotkeys
-- F1 → Toggle click-through
+---
+
+## 🖥️ Requirements
+
+- Unity **6000+**
+- **Windows only**
+- **Direct3D11** (Auto Graphics API disabled)
+- **Built-in Render Pipeline** (URP/HDRP not supported)
+- Windowed mode (NOT fullscreen)
+
+---
+
+👤 Author
+Linkz97
