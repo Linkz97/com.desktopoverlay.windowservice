@@ -1,4 +1,4 @@
-# Desktop Overlay Window System (Unity)
+﻿# Desktop Overlay Window System (Unity)
 
 A reusable Unity package that enables **transparent desktop overlay windows** with **click-through support**, designed for idle / overlay-style games.
 

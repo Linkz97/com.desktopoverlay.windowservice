@@ -1,0 +1,16 @@
+{
+    "name": "DesktopOverlay.Editor",
+    "rootNamespace": "DesktopOverlay",
+    "references": [
+        "GUID:94e78aea0aac9a342aea96877c3d3ccf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
