@@ -36,7 +36,7 @@ namespace DesktopOverlay.Window
         /// When <c>false</c>, the window captures input normally
         /// ("interactive" state).
         /// </summary>
-        void SetClickThrough(bool value);
+        void SetClickThrough(bool value, bool smart);
 
         // ── Z-order ──────────────────────────────────────────────
         /// <summary>
@@ -61,5 +61,8 @@ namespace DesktopOverlay.Window
         bool IsTransparent { get; }
         bool IsClickThrough { get; }
         bool IsAlwaysOnTop { get; }
+
+        void SetWindowRect(int x, int y, int width, int height, bool topmost);
+        void SetFullscreen();
     }
 }
