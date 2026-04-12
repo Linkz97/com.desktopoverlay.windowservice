@@ -1,7 +1,9 @@
 {
   "name": "DesktopOverlay",
   "rootNamespace": "DesktopOverlay",
-  "references": [],
+  "references": [
+    "Unity.ugui"
+  ],
   "includePlatforms": [],
   "excludePlatforms": [],
   "allowUnsafeCode": true,

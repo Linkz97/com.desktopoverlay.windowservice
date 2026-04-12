@@ -31,9 +31,9 @@ namespace DesktopOverlay.Window
         /// </returns>
         public static IWindowService Create(string windowTitle)
         {
-#if UNITY_STANDALONE_WIN && !UNITY_EDITOR
-            return new WindowsWindowService(windowTitle);
 
+#if UNITY_STANDALONE_WIN && !UNITY_EDITOR
+            return new Win32WindowService();
 #elif UNITY_EDITOR
             Debug.Log("[WindowServiceFactory] Running in Editor — window service disabled.");
             return null;
