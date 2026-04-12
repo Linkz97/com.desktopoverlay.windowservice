@@ -21,6 +21,7 @@
 | **Run In Background** | ✅ Enabled | Keeps the game loop alive when the overlay loses focus |
 | **Resizable Window** | Optional | Safe either way |
 | **Use DXGI flip model** | Disabled | Avoids transparent window not functioning properly|
+| **Use Auto Target Graphic API** | Disabled | Avoids transparent window not functioning properly|
 
 ### 2. Camera Settings
 
@@ -39,6 +40,7 @@ Camera → Background    : R=0, G=0, B=0, A=0   ← alpha zero is critical
 Canvas → Render Mode    : Screen Space - Camera
 Canvas → Render Camera  : [Main Camera]
 Canvas → Plane Distance : 1                    ← keeps UI in front of all world geometry
+Canvas Scaler → Scale With Screen Size
 ```
 
 > ⚠️ Every Canvas in your project must use **Screen Space - Camera**. A single Overlay canvas will break UI interaction over transparent regions.
